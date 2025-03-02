@@ -20,7 +20,7 @@ public class Main {
         alternativeService.listPlayers();
         alternativeService.listOrganizations();
 
-        // Lazy Singleton
+        // Lazy Singleton e
         System.out.println("=== Accessing Lazy Bean ===");
         LazyBean lazyBean = context.getBean(LazyBean.class);
 
