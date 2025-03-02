@@ -20,7 +20,7 @@ public class Main {
         alternativeService.listPlayers();
         alternativeService.listOrganizations();
 
-        // Lazy Singleton (Created only when accessed)
+        // Lazy Singleton
         System.out.println("=== Accessing Lazy Bean ===");
         LazyBean lazyBean = context.getBean(LazyBean.class);
 
