@@ -20,9 +20,9 @@ public class Main {
         alternativeService.listPlayers();
         alternativeService.listOrganizations();
 
-        // Lazy Singleton e
-        System.out.println("=== Accessing Lazy Bean ===");
+        // Lazy Singleton
         LazyBean lazyBean = context.getBean(LazyBean.class);
+        lazyBean.printStatistics();
 
         context.close();
     }
